@@ -26,7 +26,7 @@ Plotly: Interactive visualizations
 WordCloud: Text visualization
 
 📁 Project Structure
-social-media-sentiment-analysis/
+'''social-media-sentiment-analysis/
 │
 ├── sentiment_analysis.py          # Main analysis script
 ├── streamlit_app.py              # Interactive web dashboard
@@ -43,7 +43,7 @@ social-media-sentiment-analysis/
 │   └── vectorizer.pkl           # Saved TF-IDF vectorizer
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
-└── config.py                     # Configuration settings
+└── config.py                     # Configuration settings'''
 
 🚀 Getting Started
 Prerequisites
