@@ -44,6 +44,7 @@ social-media-sentiment-analysis/
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
 └── config.py                     # Configuration settings
+
 🚀 Getting Started
 Prerequisites
 Python 3.7 or higher
