@@ -1,4 +1,4 @@
-Social Media Sentiment Analysis
+```Social Media Sentiment Analysis
 A comprehensive sentiment analysis project that analyzes social media posts to determine emotional tone and public opinion. This project demonstrates various NLP techniques, machine learning models, and data visualization methods.
 
 🎯 Project Overview
@@ -26,7 +26,7 @@ Plotly: Interactive visualizations
 WordCloud: Text visualization
 
 📁 Project Structure
-'''social-media-sentiment-analysis/
+social-media-sentiment-analysis/
 │
 ├── sentiment_analysis.py          # Main analysis script
 ├── streamlit_app.py              # Interactive web dashboard
@@ -43,7 +43,7 @@ WordCloud: Text visualization
 │   └── vectorizer.pkl           # Saved TF-IDF vectorizer
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
-└── config.py                     # Configuration settings'''
+└── config.py                     # Configuration settings
 
 🚀 Getting Started
 Prerequisites
@@ -149,3 +149,4 @@ scikit-learn community for machine learning algorithms
 Plotly team for interactive visualizations
 Open source contributors and the data science community
 ⭐ Star this repository if you found it helpful! ⭐
+```
