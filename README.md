@@ -187,24 +187,5 @@ This project demonstrates proficiency in:
 - **Data Visualization**: Effective insights communication
 - **Software Engineering**: Clean, modular code structure
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Gautham Venkatesh**
-- GitHub: [@gauthamvenkatesh](https://github.com/gauthamvenkatesh)
-- LinkedIn: [Gautham Venkatesh](https://www.linkedin.com/in/gauthamvenkatesh)
-- Email: connect@gauthamvenkatesh.com
-
-## 🙏 Acknowledgments
-
-- NLTK team for natural language processing tools
-- scikit-learn community for machine learning algorithms
-- Plotly team for interactive visualizations
-- Open source contributors and the data science community
-
----
 
 ⭐ **Star this repository if you found it helpful!** ⭐
