@@ -70,9 +70,14 @@ class StreamlitSentimentAnalyzer:
     
     def analyze_dataframe(self, df, text_column):
         """Analyze sentiment for entire dataframe"""
+        df = df.copy()
         
         # Clean text
         df['cleaned_text'] = df[text_column].apply(self.clean_text)
+        df = df[df['cleaned_text'] != ''].copy()
+
+        if df.empty:
+            return df
         
         # Get sentiments
         df['textblob_sentiment'] = df['cleaned_text'].apply(self.get_textblob_sentiment)
@@ -184,7 +189,11 @@ def main():
         if st.button("🔍 Analyze Sentiment", type="primary"):
             with st.spinner("Analyzing sentiment..."):
                 analyzed_df = analyzer.analyze_dataframe(df, text_column)
-                st.session_state.analyzed_data = analyzed_df
+                if analyzed_df.empty:
+                    st.warning("No non-empty text rows were available for analysis.")
+                    st.session_state.analyzed_data = None
+                else:
+                    st.session_state.analyzed_data = analyzed_df
         
         # Display results if analysis is complete
         if st.session_state.analyzed_data is not None:
